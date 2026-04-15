@@ -227,6 +227,32 @@ footer a:hover { color: var(--text); text-decoration: underline; }
 .store-badges { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
 .store-badge img { height: 40px; }
 
+.cta-external {
+  display: inline-flex;
+  align-items: center;
+  height: 44px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  padding: 0 20px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: border-color 0.15s, color 0.15s;
+}
+.cta-external:hover { border-color: var(--text); color: var(--text); }
+
+.app-hero .cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+.app-hero .cta-row .store-badges { margin: 0; }
+
 .app-content {
   padding: 40px 32px;
   max-width: 680px;
