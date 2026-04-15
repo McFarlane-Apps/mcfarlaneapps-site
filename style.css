@@ -169,6 +169,10 @@ main { flex: 1; }
 }
 .badge-dark  { color: var(--text);   border-color: var(--text); }
 .badge-ext   { color: var(--accent); border-color: var(--accent); }
+.badge-soon  { color: var(--subtle); border-color: var(--subtle); }
+
+.app-card-disabled { cursor: default; opacity: 0.75; }
+.app-card-disabled:hover { border-color: var(--border); box-shadow: none; }
 
 /* ===== Footer ===== */
 footer {
